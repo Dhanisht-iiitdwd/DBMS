@@ -5,34 +5,35 @@ Created on Thu Aug 12 14:51:34 2021
 @author: Dhanisht
 """
 # import numpy as np
-# class TATA:
-#     def __init__(self):
-#         self.color="blue"
-#         self.size="5 metre"
-#         self.direction="north"
-#         self.milage="16 kmpl"
-#         self.type="luxury"
-#         self.manufacturer="TATA moters"
-#     def drive(self, dire):
-#         if (dire=="north"):
-#             self.direction="west"
-#         elif (dire=="west"):
-#             self.direction="south"
-#         elif (dire=="south"):
-#             self.direction="east"
-#         else:
-#             self.direction="north"
-#         print(self.direction)
-#         return 
-# car=TATA()
-# print(car.color)
-# print(car.size)
-# print(car.milage)
-# print(car.type)
-# print(car.manufacturer)
-# # direct="north"
-# dec=car.drive(north)
-# print(dec)
+ class TATA:
+     def __init__(self):
+         self.color="blue"
+         self.size="5 metre"
+         self.direction="north"
+         self.milage="16 kmpl"
+         self.type="luxury"
+         self.manufacturer="TATA moters"
+     def drive(self, dire):
+         if (dire=="north"):
+             self.direction="west"
+         elif (dire=="west"):
+             self.direction="south"
+         elif (dire=="south"):
+             self.direction="east"
+         else:
+             self.direction="north"
+         print(self.direction)
+         return 
+ car=TATA()
+ print(car.color)
+ print(car.size)
+ print(car.milage)
+ print(car.type)
+ print(car.manufacturer)
+  
+ dec=car.drive(north)
+ print(dec)
+### second problem:
 class iiitdwd:
     def __init__(self):
         self.name="Dhanisht jha"
